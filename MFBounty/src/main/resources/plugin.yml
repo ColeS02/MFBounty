@@ -1,0 +1,11 @@
+name: MFBounty
+version: '${project.version}'
+main: com.unclecole.mfbounty.MFBounty
+api-version: 1.19
+prefix: MFBounty
+authors: [ Cole ]
+depend:
+  - Vault
+commands:
+  bounty:
+    aliases: [bounties]
